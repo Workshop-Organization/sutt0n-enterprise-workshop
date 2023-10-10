@@ -52,13 +52,14 @@ coprocessor:
       body: true
 
 # Persisted Queries / Safelisting
-preview_persisted_queries:
-  enabled: true
-  safelist: 
-    enabled: true
-    require_id: false
-apq:
-  enabled: false
+# preview_persisted_queries:
+#   enabled: true
+#   safelist: 
+#     enabled: true
+#     require_id: false
+# apq:
+#   enabled: false
+
 
 
 # Operation Limits
