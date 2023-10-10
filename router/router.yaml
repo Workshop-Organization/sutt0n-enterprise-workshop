@@ -51,6 +51,16 @@ coprocessor:
     response:
       body: true
 
+# Persisted Queries / Safelisting
+preview_persisted_queries:
+  enabled: true
+  safelist: 
+    enabled: true
+    require_id: false
+apq:
+  enabled: false
+
+
 # Operation Limits
 limits:
   max_depth: 5
