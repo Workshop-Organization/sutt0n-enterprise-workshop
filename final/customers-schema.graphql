@@ -15,6 +15,7 @@ type User @key(fields: "id") {
   firstName: String @tag(name: "private")
   lastName: String @tag(name: "private")
   address: String @tag(name: "private")
+  address2: String @tag(name: "private")
   phone: String @tag(name: "private")
   email: String! @tag(name: "private")
 
